@@ -13,5 +13,4 @@ def oxford_comma(array)
   else
   result = "#{array[0, array.length].join(', ')} and #{array.last}"
 end
-  end
 end
