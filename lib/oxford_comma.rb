@@ -11,6 +11,5 @@ def oxford_comma(array)
     newArr[-2] = 'and'
     newArr.join(" ")
   else
-  result = "#{array[0..-2].join(', ')} and #{array.last}"
-end
+    result = "#{array[0..-2].join(', ')}, and #{array.last}"end
 end
